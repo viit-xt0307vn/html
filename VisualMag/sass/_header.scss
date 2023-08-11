@@ -1,0 +1,55 @@
+.header {
+    height: 76px;
+    width: 100%;
+    box-shadow: 0 0 15px #00000030;
+}
+
+.navigation {
+    max-width:  1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    width: 220px;
+    height: 41xp;
+}
+
+.menu {
+    margin-right: 32px;
+    margin-left: auto;
+    display: flex;
+    gap: 0 24px;
+
+}
+
+.search {
+    width: 200px;
+    height: 36px;
+    background-color: red;
+    display: flex;
+
+
+    &-button {
+        background-color: #0099E5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 36px;
+        i {
+            width: 24px;
+            height: 26px;
+            color: #FFF;
+        }
+    }
+
+    &-input {
+        padding: 5px;
+        height: 100%;
+        width: calc(100% - 36px);   
+    }
+}
+

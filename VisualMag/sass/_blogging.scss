@@ -1,0 +1,14 @@
+.blogging {
+    width: 100%;
+    margin-top: 30px;
+
+    &-container {
+        margin-top: 24px;
+        display: flex;
+        gap: 23px;
+    }
+
+    .heading-blogging {
+        font-weight: 700;
+    }
+}
